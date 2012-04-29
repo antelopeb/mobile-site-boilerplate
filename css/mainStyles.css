@@ -56,7 +56,8 @@
 	margin: .6em 5% .8em;
 }
 
-/*seriously, a footer that floats mid-page?? This had to be fixed...*/
+/*seriously, a footer that floats mid-page?? This had to be fixed...
+TODO - fix race condition that causes footer to be float off bottom on first load */
 .ui-footer {
 	padding: .5em 0;
 	position: absolute;
