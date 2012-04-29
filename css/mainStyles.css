@@ -56,11 +56,19 @@
 	margin: .6em 5% .8em;
 }
 
-/*seriously, a footer that floats mid-page?? Untested on mobile, so it may change*/
+/*seriously, a footer that floats mid-page?? This had to be fixed...*/
 .ui-footer {
 	padding: .5em 0;
 	position: absolute;
 	bottom: 0;
 	top: auto;
 	width: 100%;	
+}
+
+.ui-content {
+	margin-bottom: 45px;
+}
+
+.ui-mobile, .ui-mobile body {
+	height: 100%;
 }
