@@ -1,4 +1,45 @@
-/* some OOCSS to start you off */
+/* reset the browsers basic CSS */
+@import url("reset.css");
+
+/* a baseline set of CSS rules */
+/*
+Baseline all the styles after resetting them
+*/
+
+/* Add adjustment to allow text resizing */
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+/* set a baseline font size and line-spacing */
+body { font:1em/1.4em Helvetica, Arial, Verdana, sans-serif; }
+
+/* select color - borrowed from HTML5 Boilerplate */
+::-moz-selection { background: #8fd400; text-shadow: none; color: #fff; }
+::selection { background: #8fd400; text-shadow: none; color: #fff; }
+
+/* add a bold back in where you need it */
+strong, b, h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+/* add in some left spacing where needed */
+li, dd, blockquote { margin-left: 1em; }
+
+/* add margin back to the bottom of p tags */
+p { margin-bottom: 1em; }
+
+/* restyle the list elements */
+ul { list-style: circle; }
+ol { list-style: decimal; }
+
+/* add a default focus behavior for accessibility */
+*:focus { outline: 1px dotted #999; }
+
+/*headline size*/
+h1 { font-size: 125%; }
+h2 { font-size: 120%; }
+h3 { font-size: 115%; }
+h4 { font-size: 110%; }
+h5 { font-size: 105%; }
+/* end the baseline styles
+   start of some object oriented CSS to start you off (note, great for rapid prototyping!) */
 
 /* styles for text */
 .times { font-family: Times New Roman, Times, serif; letter-spacing: -1px; }
@@ -67,7 +108,7 @@ TODO - fix race condition that causes footer to be float off bottom on first loa
 }
 
 .ui-content {
-	margin-bottom: 45px;
+	margin-bottom: 65px;
 }
 
 .ui-mobile, .ui-mobile body {
